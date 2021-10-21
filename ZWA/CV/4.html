@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <title>4. cvičení - CSS</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: gray;
+      }
+
+      .heading {
+        color: red;
+        font-size: 32px;
+        line-height: 24px;
+      }
+
+      footer a {
+        color: green;
+      }
+
+      h2 + p::first-letter {
+        font-size: 2em;
+      }
+
+      nav ol {
+        list-style-type: lower-alpha;
+      }
+
+      header > img {
+        transition: transform 250ms;
+      }
+
+      header > img:hover {
+        transform: scale(1.5);
+        transition: transform 500ms;
+      }
+
+      .author {
+        color: red;
+        font-size: 24px;
+        text-transform: uppercase;
+      }
+
+      .quote {
+
+      }
+    </style>
+    <header>
+      <img
+        alt="css"
+        src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Old_wikipedia_logo.png"
+      />
+      <h1 class="heading">Vyzkoušej si <span>CSS</span> !</h1>
+    </header>
+    <div>
+      <nav>
+        <ol>
+          <li><a href="#1">První odkaz</a></li>
+          <li><a href="#2">Druhý odkaz</a></li>
+          <li>
+            <a href="#3">Třetí odkaz a submenu</a>
+            <ol>
+              <li><a href="#4">Další odkaz</a></li>
+              <li><a href="#5">Střední odkaz</a></li>
+              <li><a href="#6">Poslední odkaz</a></li>
+            </ol>
+          </li>
+        </ol>
+      </nav>
+      <article>
+        <h2>Úryvek z knihy Anna Karenina</h2>
+        <p>
+          Stěpan Arkaďjič se učení příliš nevěnoval, byl známý jako neúnavný
+          hýřil a hejsek, ale přes svůj mladý věk získal díky muži své sestry
+          Anny, Alexeji Alexandrovičovi Kareninovi, slušně placené místo ve
+          významném moskevském úřadě. Ovšem, pokud by Karenin nepomohl, mohl
+          Stiva počítat s bratranci, sestřenicemi, strýčky a tetinkami. Polovinu
+          Moskvy tvořili příbuzní, narodil se mezi mocnými tohoto světa. Umět se
+          narodit je důležité, jinak zůstaneš bezvýznamný. Podřízení ho
+          zbožňovali – náš Stivušenka, říkali, má liberální sklony; Stiva
+          Oblonskij, přítel, kamarád, společník a vtipálek, hlava otevřená, tu
+          ho máme!
+        </p>
+        <span class="author"> Lev Nikolajevič Tolstoj </span>
+      </article>
+    </div>
+    <footer>
+      <div>
+        <h4>Top úryvky</h4>
+        <ul>
+          <li><a>Úryvek 1</a></li>
+          <li><a>Úryvek 2</a></li>
+          <li><a href="/">Úryvek 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Ostatné</h4>
+        <ul>
+          <li><a href="/">FAQ</a></li>
+          <li><a href="/">O nás</a></li>
+          <li><a href="/">Fórum</a></li>
+        </ul>
+      </div>
+      <div>Copyright © 2021 bla bla bla, bla.</div>
+      <p>Zaujímavá citácia na záver.</p>
+    </footer>
+  </body>
+</html>
