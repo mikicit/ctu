@@ -76,4 +76,4 @@ def polyMultiply(poly1, poly2):
 
 # print(polyEval([1, 2.5, 3.5, 0, 5.4], 2))
 # print(polySum([1, 2, 5], [2, 0, 1, -7]))
-print(polyMultiply([1, 2, 5], [2, 0, 1, -7]))
+# print(polyMultiply([1, 2, 5], [2, 0, 1, -7]))
