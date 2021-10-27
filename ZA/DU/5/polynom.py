@@ -57,16 +57,16 @@ def polyMultiply(poly1, poly2):
             fullValue = firstValue * secondValue
 
             if fullPower < len(result):
-                result[fullPower].append(fullValue)
+                result[fullPower] += fullValue
             else:
-                result.append([fullValue])
+                result.append(fullValue)
 
-    for index, array in enumerate(result):
-        sum = 0
-        for value in array:
-            sum += value
+    # for index, array in enumerate(result):
+    #     sum = 0
+    #     for value in array:
+    #         sum += value
 
-        result[index] = sum
+    #     result[index] = sum
 
     return result
     
