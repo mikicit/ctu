@@ -1,8 +1,8 @@
-def polyEval(polynom, x):
+def polyEval(poly, x):
     result = 0
     index = 0
 
-    for value in polynom:
+    for value in poly:
         result += (x**index) * value
         index += 1
 
@@ -22,10 +22,28 @@ def polySum(poly1, poly2):
     for i in range(0, len(second)):
         first[i] = first[i] + second[i]
 
+    index = len(first) - 1
+
+    while first[index] == 0 and index >= 0:
+        print(first.pop())
+        index -= 1
+
     return first
 
 
 def polyMultiply(poly1, poly2):
+    result = []
+
+    for firstPower, firstValue in enumerate(poly1):
+        for secondPower, secondValue in enumerate(poly2):
+            fullPower = firstPower + secondPower
+            fullValue = firstValue * secondValue
+
+            if fullPower < len(result):
+                result[fullPower] += fullValue
+            else:
+                result.append(fullValue)
+
     # tmp = {}
     # result = []
 
@@ -47,33 +65,11 @@ def polyMultiply(poly1, poly2):
     #     result.append(sum)
 
     # print(result)
-    
-
-    result = []
-
-    for firstPower, firstValue in enumerate(poly1):
-        for secondPower, secondValue in enumerate(poly2):
-            fullPower = firstPower + secondPower
-            fullValue = firstValue * secondValue
-
-            if fullPower < len(result):
-                result[fullPower] += fullValue
-            else:
-                result.append(fullValue)
-
-    # for index, array in enumerate(result):
-    #     sum = 0
-    #     for value in array:
-    #         sum += value
-
-    #     result[index] = sum
 
     return result
     
 
-
-
-
 # print(polyEval([1, 2.5, 3.5, 0, 5.4], 2))
 # print(polySum([1, 2, 5], [2, 0, 1, -7]))
-# print(polyMultiply([1, 2, 5], [2, 0, 1, -7]))
+# print(polySum([1, 2.5, 3.5, 0, 5.4], [-1, -3.5, -3.5, 0, -5.4]))
+# print(polyMultiply([1, 2, 5], [2, 0, 1, -7, 0]))
