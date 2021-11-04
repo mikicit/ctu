@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+</head>
+<body>
+  <form action="" method="GET" id="form">
+    <fieldset>
+      <legend>Search SW person</legend>
+      <p>
+        <input type="text" name="search">
+        <input type="submit" value="Hledej!">
+      </p>
+      <p>
+        <textarea name="results" cols="100" rows="10"></textarea>
+      </p>
+    </fieldset>
+  </form>
+  <script>
+    const form = document.querySelector('#form');
+
+    form.addEventListener('submit', submitHandler, false);
+
+    function submitHandler(e) {
+      e.preventDefault();
+      const searchInput = form.querySelector('input[name="search"]');
+      const textarea = form.querySelector('textarea[name="results"]');
+
+      const xhr = new XMLHttpRequest;
+      xhr.open('GET', `https://swapi.dev/api/people/?search=${searchInput.value}`);
+      xhr.send();
+
+      xhr.onreadystatechange = (e) => {
+        if (xhr.readystatechange == 4) {
+        
+        } else {
+        
+        }
+      }
+
+      console.log(searchInput.value);
+    }
+  </script>
+</body>
+</html>
