@@ -1,1 +1,1 @@
-# DU
+# 2 semester
