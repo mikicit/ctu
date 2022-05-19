@@ -60,4 +60,9 @@ public class SentPackage {
     public void setSentDateTime(Date sentDateTime) {
         this.sentDateTime = sentDateTime;
     }
+
+    @PrePersist
+    protected void onCreate() {
+        sentDateTime = new Date();
+    }
 }

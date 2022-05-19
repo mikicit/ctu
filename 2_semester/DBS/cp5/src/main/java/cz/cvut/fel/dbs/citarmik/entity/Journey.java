@@ -28,11 +28,11 @@ public class Journey {
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "arrival_date_time", nullable = false)
     private Date arrivalDateTime;
-    @ManyToOne(cascade = CascadeType.MERGE)
+    @ManyToOne()
     @JoinColumn(name = "auto_id")
     private Auto auto;
 
-    @ManyToMany(fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinTable(
             name = "JourneyPackage",
             joinColumns = @JoinColumn(name = "journey_id"),

@@ -33,14 +33,14 @@ public class OrderService {
         Department departmentTo = departmentDao.get(departmentToId);
 
         order.setClient(client);
-        order.setRecipient(recipient);
         order.setDepartmentFrom(departmentFrom);
         order.setDepartmentTo(departmentTo);
         order.setPrice(price);
 
         recipient.setFirstName(firstName);
-        recipient.setFirstName(lastName);
-        recipient.setFirstName(phoneNumber);
+        recipient.setLastName(lastName);
+        recipient.setPhoneNumber(phoneNumber);
+        order.setRecipient(recipient);
 
         EntityManager em = EntityManagerFactoryUtil.getEntityManagerFactory().createEntityManager();
         EntityTransaction et = em.getTransaction();

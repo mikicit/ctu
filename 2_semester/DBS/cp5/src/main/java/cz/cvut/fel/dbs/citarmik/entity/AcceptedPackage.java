@@ -27,7 +27,7 @@ public class AcceptedPackage {
     private Department department;
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "accepted_date_time", nullable = false)
-    private Date sentDateTime;
+    private Date acceptedDateTime;
 
     public long getId() {
         return id;
@@ -54,10 +54,15 @@ public class AcceptedPackage {
     }
 
     public Date getSentDateTime() {
-        return sentDateTime;
+        return acceptedDateTime;
     }
 
     public void setSentDateTime(Date sentDateTime) {
-        this.sentDateTime = sentDateTime;
+        this.acceptedDateTime = sentDateTime;
+    }
+
+    @PrePersist
+    protected void onCreate() {
+        acceptedDateTime = new Date();
     }
 }

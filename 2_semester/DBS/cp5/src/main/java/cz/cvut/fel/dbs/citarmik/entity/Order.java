@@ -86,4 +86,9 @@ public class Order {
     public void setRecipient(Recipient recipient) {
         this.recipient = recipient;
     }
+
+    @PrePersist
+    protected void onCreate() {
+        creationDateTime = new Date();
+    }
 }

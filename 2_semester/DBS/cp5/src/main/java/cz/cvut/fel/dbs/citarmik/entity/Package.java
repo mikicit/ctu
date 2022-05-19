@@ -15,7 +15,7 @@ public class Package {
             generator="package_package_id_seq")
     @Column(name = "package_id", updatable = false)
     private long id;
-    @ManyToOne()
+    @ManyToOne(cascade = CascadeType.REFRESH)
     @JoinColumn(name = "order_id", nullable = false)
     private Order order;
     @Column(name = "package_type", length = 32, nullable = false)
@@ -29,7 +29,7 @@ public class Package {
     @Column(name = "package_depth", nullable = false)
     private Float depth;
 
-    @ManyToMany(mappedBy = "packages", fetch = FetchType.LAZY)
+    @ManyToMany(mappedBy = "packages", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<Journey> journeys = new ArrayList<>();
 
     public long getId() {

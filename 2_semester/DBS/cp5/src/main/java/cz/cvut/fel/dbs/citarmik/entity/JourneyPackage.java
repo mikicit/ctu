@@ -18,10 +18,10 @@ public class JourneyPackage {
             generator="journeypackage_journey_package_id_seq")
     @Column(name = "journey_package_id", updatable = false)
     private long id;
-    @ManyToOne(cascade = CascadeType.REMOVE)
+    @ManyToOne()
     @JoinColumn(name = "journey_id")
     private Journey journey;
-    @ManyToOne(cascade = CascadeType.REMOVE)
+    @ManyToOne()
     @JoinColumn(name = "package_id")
     private Package packageEntity;
 
