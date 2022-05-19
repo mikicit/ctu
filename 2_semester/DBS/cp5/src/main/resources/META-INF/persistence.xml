@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="DBS" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>cz.cvut.fel.dbs.citarmik.entity.AcceptedPackage</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.Auto</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.AutoType</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.Client</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.Department</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.Employee</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.EmployeePosition</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.Journey</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.JourneyPackage</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.Order</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.Package</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.Person</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.Recipient</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.SentPackage</class>
+        <class>cz.cvut.fel.dbs.citarmik.entity.Supervisor</class>
+        <properties>
+            <property
+                name="javax.persistence.jdbc.url"
+                value="jdbc:postgresql://slon.felk.cvut.cz:5432/citarmik"
+            />
+            <property
+                name="javax.persistence.jdbc.user"
+                value="citarmik"
+            />
+            <property
+                name="javax.persistence.jdbc.driver"
+                value="org.postgresql.Driver"
+            />
+            <property
+                name="javax.persistence.jdbc.password"
+                value="28053155"
+            />
+<!--            <property-->
+<!--                name="javax.persistence.schema-generation.database.action"-->
+<!--                value="create"-->
+<!--            />-->
+            <property name = "eclipselink.logging.level" value = "FINE"/>
+<!--            <property name = "eclipselink.ddl-generation" value="create-or-extend-tables"/>-->
+        </properties>
+    </persistence-unit>
+</persistence>

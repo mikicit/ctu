@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="Testovaci">
+  <Parameters>
+    <Parameter id="0" name="Ucty" type="1">
+      <values>
+        <value>11</value>
+        <value>20</value>
+        <value>99</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="1" name="Datum" type="1">
+      <values>
+        <value>16</value>
+        <value>8</value>
+        <value>31</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="2" name="Castka" type="0">
+      <values>
+        <value>9999</value>
+        <value>10000</value>
+      </values>
+      <basechoices />
+      <invalidValues>
+        <invalidValue>-1</invalidValue>
+      </invalidValues>
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations />
+  <Constraints />
+  <Testset doi="2">
+    <Testcase TCNo="0">
+      <Value>1</Value>
+      <Value>11</Value>
+      <Value>16</Value>
+      <Value>10000</Value>
+    </Testcase>
+    <Testcase TCNo="1">
+      <Value>2</Value>
+      <Value>11</Value>
+      <Value>8</Value>
+      <Value>9999</Value>
+    </Testcase>
+    <Testcase TCNo="2">
+      <Value>3</Value>
+      <Value>11</Value>
+      <Value>31</Value>
+      <Value>10000</Value>
+    </Testcase>
+    <Testcase TCNo="3">
+      <Value>4</Value>
+      <Value>20</Value>
+      <Value>16</Value>
+      <Value>9999</Value>
+    </Testcase>
+    <Testcase TCNo="4">
+      <Value>5</Value>
+      <Value>20</Value>
+      <Value>8</Value>
+      <Value>10000</Value>
+    </Testcase>
+    <Testcase TCNo="5">
+      <Value>6</Value>
+      <Value>20</Value>
+      <Value>31</Value>
+      <Value>9999</Value>
+    </Testcase>
+    <Testcase TCNo="6">
+      <Value>7</Value>
+      <Value>99</Value>
+      <Value>16</Value>
+      <Value>10000</Value>
+    </Testcase>
+    <Testcase TCNo="7">
+      <Value>8</Value>
+      <Value>99</Value>
+      <Value>8</Value>
+      <Value>9999</Value>
+    </Testcase>
+    <Testcase TCNo="8">
+      <Value>9</Value>
+      <Value>99</Value>
+      <Value>31</Value>
+      <Value>10000</Value>
+    </Testcase>
+    <Testcase TCNo="9">
+      <Value>10</Value>
+      <Value>11</Value>
+      <Value>8</Value>
+      <Value>-1</Value>
+    </Testcase>
+    <Testcase TCNo="10">
+      <Value>11</Value>
+      <Value>20</Value>
+      <Value>31</Value>
+      <Value>-1</Value>
+    </Testcase>
+    <Testcase TCNo="11">
+      <Value>12</Value>
+      <Value>99</Value>
+      <Value>16</Value>
+      <Value>-1</Value>
+    </Testcase>
+  </Testset>
+  <Header>
+    <Value />
+    <Value>Ucty</Value>
+    <Value>Datum</Value>
+    <Value>Castka</Value>
+  </Header>
+  <Stat-Data>
+    <ExecutionTime>0.146</ExecutionTime>
+    <MaxDomainSize>3</MaxDomainSize>
+    <MinDomainSize>2</MinDomainSize>
+    <TotalNoOfCombination>27</TotalNoOfCombination>
+    <TotalNoOfTests>12</TotalNoOfTests>
+    <Algorithm>IPOG</Algorithm>
+  </Stat-Data>
+</System>
+

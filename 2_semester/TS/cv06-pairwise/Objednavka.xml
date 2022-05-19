@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="Objednavka">
+  <Parameters>
+    <Parameter id="4" name="Datum_narozeni" type="0">
+      <values>
+        <value>14</value>
+        <value>15</value>
+        <value>16</value>
+        <value>26</value>
+        <value>27</value>
+        <value>65</value>
+        <value>66</value>
+        <value>0</value>
+        <value>100</value>
+      </values>
+      <basechoices />
+      <invalidValues>
+        <invalidValue>-1</invalidValue>
+        <invalidValue>101</invalidValue>
+      </invalidValues>
+    </Parameter>
+    <Parameter id="5" name="Sleva" type="1">
+      <values>
+        <value>student</value>
+        <value>duchodce</value>
+        <value>kupon</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="7" name="Registrace" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="8" name="Destinace" type="1">
+      <values>
+        <value>?eská Republika</value>
+        <value>B?lorusko</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="9" name="Jmeno" type="1">
+      <values>
+        <value>Mikita</value>
+      </values>
+      <basechoices />
+      <invalidValues>
+        <invalidValue>null</invalidValue>
+        <invalidValue>*?</invalidValue>
+      </invalidValues>
+    </Parameter>
+    <Parameter id="10" name="Prijmeni" type="1">
+      <values>
+        <value>Citarovi?</value>
+      </values>
+      <basechoices />
+      <invalidValues>
+        <invalidValue>null</invalidValue>
+        <invalidValue>*?</invalidValue>
+      </invalidValues>
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations />
+  <Constraints />
+  <Testset doi="2">
+    <Testcase TCNo="0">
+      <Value>1</Value>
+      <Value>14</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="1">
+      <Value>2</Value>
+      <Value>14</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="2">
+      <Value>3</Value>
+      <Value>14</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="3">
+      <Value>4</Value>
+      <Value>15</Value>
+      <Value>student</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="4">
+      <Value>5</Value>
+      <Value>15</Value>
+      <Value>duchodce</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="5">
+      <Value>6</Value>
+      <Value>15</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="6">
+      <Value>7</Value>
+      <Value>16</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="7">
+      <Value>8</Value>
+      <Value>16</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="8">
+      <Value>9</Value>
+      <Value>16</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="9">
+      <Value>10</Value>
+      <Value>26</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="10">
+      <Value>11</Value>
+      <Value>26</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="11">
+      <Value>12</Value>
+      <Value>26</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="12">
+      <Value>13</Value>
+      <Value>27</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="13">
+      <Value>14</Value>
+      <Value>27</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="14">
+      <Value>15</Value>
+      <Value>27</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="15">
+      <Value>16</Value>
+      <Value>65</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="16">
+      <Value>17</Value>
+      <Value>65</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="17">
+      <Value>18</Value>
+      <Value>65</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="18">
+      <Value>19</Value>
+      <Value>66</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="19">
+      <Value>20</Value>
+      <Value>66</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="20">
+      <Value>21</Value>
+      <Value>66</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="21">
+      <Value>22</Value>
+      <Value>0</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="22">
+      <Value>23</Value>
+      <Value>0</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="23">
+      <Value>24</Value>
+      <Value>0</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="24">
+      <Value>25</Value>
+      <Value>100</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="25">
+      <Value>26</Value>
+      <Value>100</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="26">
+      <Value>27</Value>
+      <Value>100</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="27">
+      <Value>28</Value>
+      <Value>14</Value>
+      <Value>duchodce</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>null</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="28">
+      <Value>29</Value>
+      <Value>14</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>*?</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="29">
+      <Value>30</Value>
+      <Value>15</Value>
+      <Value>student</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>null</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="30">
+      <Value>31</Value>
+      <Value>15</Value>
+      <Value>duchodce</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>*?</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="31">
+      <Value>32</Value>
+      <Value>16</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>null</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="32">
+      <Value>33</Value>
+      <Value>16</Value>
+      <Value>student</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>*?</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="33">
+      <Value>34</Value>
+      <Value>26</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>null</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="34">
+      <Value>35</Value>
+      <Value>26</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>*?</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="35">
+      <Value>36</Value>
+      <Value>27</Value>
+      <Value>duchodce</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>null</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="36">
+      <Value>37</Value>
+      <Value>27</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>*?</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="37">
+      <Value>38</Value>
+      <Value>65</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>null</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="38">
+      <Value>39</Value>
+      <Value>65</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>*?</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="39">
+      <Value>40</Value>
+      <Value>66</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>null</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="40">
+      <Value>41</Value>
+      <Value>66</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>*?</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="41">
+      <Value>42</Value>
+      <Value>0</Value>
+      <Value>duchodce</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>null</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="42">
+      <Value>43</Value>
+      <Value>0</Value>
+      <Value>student</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>*?</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="43">
+      <Value>44</Value>
+      <Value>100</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>null</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="44">
+      <Value>45</Value>
+      <Value>100</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>*?</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="45">
+      <Value>46</Value>
+      <Value>-1</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="46">
+      <Value>47</Value>
+      <Value>101</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="47">
+      <Value>48</Value>
+      <Value>14</Value>
+      <Value>student</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>null</Value>
+    </Testcase>
+    <Testcase TCNo="48">
+      <Value>49</Value>
+      <Value>14</Value>
+      <Value>duchodce</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>*?</Value>
+    </Testcase>
+    <Testcase TCNo="49">
+      <Value>50</Value>
+      <Value>15</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>null</Value>
+    </Testcase>
+    <Testcase TCNo="50">
+      <Value>51</Value>
+      <Value>16</Value>
+      <Value>duchodce</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>null</Value>
+    </Testcase>
+    <Testcase TCNo="51">
+      <Value>52</Value>
+      <Value>26</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>null</Value>
+    </Testcase>
+    <Testcase TCNo="52">
+      <Value>53</Value>
+      <Value>27</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>null</Value>
+    </Testcase>
+    <Testcase TCNo="53">
+      <Value>54</Value>
+      <Value>65</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>null</Value>
+    </Testcase>
+    <Testcase TCNo="54">
+      <Value>55</Value>
+      <Value>66</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>null</Value>
+    </Testcase>
+    <Testcase TCNo="55">
+      <Value>56</Value>
+      <Value>0</Value>
+      <Value>student</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>null</Value>
+    </Testcase>
+    <Testcase TCNo="56">
+      <Value>57</Value>
+      <Value>100</Value>
+      <Value>duchodce</Value>
+      <Value>false</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>null</Value>
+    </Testcase>
+    <Testcase TCNo="57">
+      <Value>58</Value>
+      <Value>15</Value>
+      <Value>student</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>*?</Value>
+    </Testcase>
+    <Testcase TCNo="58">
+      <Value>59</Value>
+      <Value>16</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>*?</Value>
+    </Testcase>
+    <Testcase TCNo="59">
+      <Value>60</Value>
+      <Value>26</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>*?</Value>
+    </Testcase>
+    <Testcase TCNo="60">
+      <Value>61</Value>
+      <Value>27</Value>
+      <Value>student</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>*?</Value>
+    </Testcase>
+    <Testcase TCNo="61">
+      <Value>62</Value>
+      <Value>65</Value>
+      <Value>kupon</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>*?</Value>
+    </Testcase>
+    <Testcase TCNo="62">
+      <Value>63</Value>
+      <Value>66</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>*?</Value>
+    </Testcase>
+    <Testcase TCNo="63">
+      <Value>64</Value>
+      <Value>0</Value>
+      <Value>student</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>*?</Value>
+    </Testcase>
+    <Testcase TCNo="64">
+      <Value>65</Value>
+      <Value>100</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>*?</Value>
+    </Testcase>
+    <Testcase TCNo="65">
+      <Value>66</Value>
+      <Value>-1</Value>
+      <Value>student</Value>
+      <Value>false</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="66">
+      <Value>67</Value>
+      <Value>101</Value>
+      <Value>student</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="67">
+      <Value>68</Value>
+      <Value>101</Value>
+      <Value>duchodce</Value>
+      <Value>true</Value>
+      <Value>?eská Republika</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+    <Testcase TCNo="68">
+      <Value>69</Value>
+      <Value>-1</Value>
+      <Value>kupon</Value>
+      <Value>true</Value>
+      <Value>B?lorusko</Value>
+      <Value>Mikita</Value>
+      <Value>Citarovi?</Value>
+    </Testcase>
+  </Testset>
+  <Header>
+    <Value />
+    <Value>Datum_narozeni</Value>
+    <Value>Sleva</Value>
+    <Value>Registrace</Value>
+    <Value>Destinace</Value>
+    <Value>Jmeno</Value>
+    <Value>Prijmeni</Value>
+  </Header>
+  <Stat-Data>
+    <ExecutionTime>0.035</ExecutionTime>
+    <MaxDomainSize>9</MaxDomainSize>
+    <MinDomainSize>1</MinDomainSize>
+    <TotalNoOfCombination>198</TotalNoOfCombination>
+    <TotalNoOfTests>69</TotalNoOfTests>
+    <Algorithm>IPOG</Algorithm>
+  </Stat-Data>
+</System>
+

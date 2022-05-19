@@ -1,0 +1,76 @@
+# ACTS Test Suite Generation: Tue Mar 29 10:46:21 CEST 2022
+#  '*' represents don't care value 
+# Degree of interaction coverage: 2
+# Number of parameters: 6
+# Maximum number of values per parameter: 9
+# Number of configurations: 69
+Datum_narozeni,Sleva,Registrace,Destinace,Jmeno,Prijmeni
+14,student,false,B?lorusko,Mikita,Citarovi?
+14,duchodce,true,?eská Republika,Mikita,Citarovi?
+14,kupon,false,?eská Republika,Mikita,Citarovi?
+15,student,true,B?lorusko,Mikita,Citarovi?
+15,duchodce,false,?eská Republika,Mikita,Citarovi?
+15,kupon,true,B?lorusko,Mikita,Citarovi?
+16,student,false,?eská Republika,Mikita,Citarovi?
+16,duchodce,true,B?lorusko,Mikita,Citarovi?
+16,kupon,false,?eská Republika,Mikita,Citarovi?
+26,student,false,?eská Republika,Mikita,Citarovi?
+26,duchodce,true,B?lorusko,Mikita,Citarovi?
+26,kupon,true,B?lorusko,Mikita,Citarovi?
+27,student,false,?eská Republika,Mikita,Citarovi?
+27,duchodce,true,B?lorusko,Mikita,Citarovi?
+27,kupon,false,?eská Republika,Mikita,Citarovi?
+65,student,false,?eská Republika,Mikita,Citarovi?
+65,duchodce,true,B?lorusko,Mikita,Citarovi?
+65,kupon,true,B?lorusko,Mikita,Citarovi?
+66,student,false,?eská Republika,Mikita,Citarovi?
+66,duchodce,true,B?lorusko,Mikita,Citarovi?
+66,kupon,false,B?lorusko,Mikita,Citarovi?
+0,student,false,?eská Republika,Mikita,Citarovi?
+0,duchodce,true,B?lorusko,Mikita,Citarovi?
+0,kupon,true,?eská Republika,Mikita,Citarovi?
+100,student,false,?eská Republika,Mikita,Citarovi?
+100,duchodce,true,B?lorusko,Mikita,Citarovi?
+100,kupon,true,B?lorusko,Mikita,Citarovi?
+14,duchodce,false,B?lorusko,null,Citarovi?
+14,kupon,true,?eská Republika,*?,Citarovi?
+15,student,true,?eská Republika,null,Citarovi?
+15,duchodce,false,B?lorusko,*?,Citarovi?
+16,kupon,true,B?lorusko,null,Citarovi?
+16,student,true,B?lorusko,*?,Citarovi?
+26,student,false,?eská Republika,null,Citarovi?
+26,kupon,true,?eská Republika,*?,Citarovi?
+27,duchodce,false,?eská Republika,null,Citarovi?
+27,kupon,false,?eská Republika,*?,Citarovi?
+65,kupon,false,B?lorusko,null,Citarovi?
+65,kupon,false,B?lorusko,*?,Citarovi?
+66,student,false,?eská Republika,null,Citarovi?
+66,student,false,?eská Republika,*?,Citarovi?
+0,duchodce,false,?eská Republika,null,Citarovi?
+0,student,true,?eská Republika,*?,Citarovi?
+100,kupon,false,?eská Republika,null,Citarovi?
+100,kupon,false,B?lorusko,*?,Citarovi?
+-1,duchodce,true,?eská Republika,Mikita,Citarovi?
+101,kupon,false,B?lorusko,Mikita,Citarovi?
+14,student,true,?eská Republika,Mikita,null
+14,duchodce,false,B?lorusko,Mikita,*?
+15,kupon,false,B?lorusko,Mikita,null
+16,duchodce,false,B?lorusko,Mikita,null
+26,duchodce,true,?eská Republika,Mikita,null
+27,duchodce,true,?eská Republika,Mikita,null
+65,student,false,B?lorusko,Mikita,null
+66,kupon,true,B?lorusko,Mikita,null
+0,student,true,B?lorusko,Mikita,null
+100,duchodce,false,?eská Republika,Mikita,null
+15,student,true,?eská Republika,Mikita,*?
+16,kupon,true,B?lorusko,Mikita,*?
+26,duchodce,true,B?lorusko,Mikita,*?
+27,student,true,B?lorusko,Mikita,*?
+65,kupon,false,B?lorusko,Mikita,*?
+66,duchodce,true,?eská Republika,Mikita,*?
+0,student,true,?eská Republika,Mikita,*?
+100,kupon,true,B?lorusko,Mikita,*?
+-1,student,false,B?lorusko,Mikita,Citarovi?
+101,student,true,?eská Republika,Mikita,Citarovi?
+101,duchodce,true,?eská Republika,Mikita,Citarovi?
+-1,kupon,true,B?lorusko,Mikita,Citarovi?

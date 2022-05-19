@@ -9,6 +9,8 @@ public class TreeImpl implements Tree{
     }
 
     public void setTree(int[] values) {
+        if (values.length == 0) return;
+
         this.values = values;
         int start = 0;
         int end = values.length - 1;
@@ -69,6 +71,8 @@ public class TreeImpl implements Tree{
     }
 
     public String toString() {
+        if (root == null) return "";
+
         StringBuilder result = new StringBuilder();
         recursivelyTreeToString(root, 0, result);
         return result.toString();
