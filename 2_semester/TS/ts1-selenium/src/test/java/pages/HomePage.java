@@ -48,7 +48,7 @@ public class HomePage {
     public void closeCookies() {
         try {
             driver.findElement(By.cssSelector("button[data-cc-action='accept']")).click();
-        } catch (NoSuchElementException e) {}
+        } catch (NoSuchElementException ignored) {}
     }
 
     public void closePopup() {
@@ -63,6 +63,6 @@ public class HomePage {
                 }
             }
 
-        } catch (NoSuchElementException e) {}
+        } catch (NoSuchElementException ignored) {}
     }
 }
