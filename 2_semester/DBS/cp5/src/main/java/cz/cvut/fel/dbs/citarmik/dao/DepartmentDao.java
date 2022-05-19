@@ -6,8 +6,8 @@ import cz.cvut.fel.dbs.citarmik.entity.Department;
 import javax.persistence.EntityManager;
 
 public class DepartmentDao extends AbstractJpaDAO<Department> {
-    public DepartmentDao(EntityManager em) {
-        super(em);
+    public DepartmentDao() {
+        super();
         setCurrentClass(Department.class);
     }
 }

@@ -6,8 +6,8 @@ import cz.cvut.fel.dbs.citarmik.entity.JourneyPackage;
 import javax.persistence.EntityManager;
 
 public class JourneyPackageDao extends AbstractJpaDAO<JourneyPackage> {
-    public JourneyPackageDao(EntityManager em) {
-        super(em);
+    public JourneyPackageDao() {
+        super();
         setCurrentClass(JourneyPackage.class);
     }
 }

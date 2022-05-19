@@ -7,8 +7,8 @@ import javax.persistence.*;
 
 public class Main {
     public static void main(String[] args) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("DBS");
-        EntityManager em = emf.createEntityManager();
+//        EntityManagerFactory emf = Persistence.createEntityManagerFactory("DBS");
+//        EntityManager em = emf.createEntityManager();
 
 //        AutoTypeDao autoTypeDao = new AutoTypeDao(em);
 //        System.out.println(autoTypeDao.get(1).getName());
@@ -75,7 +75,7 @@ public class Main {
 //
 //        personDao.save(person);
 
-        ClientDao clientDao = new ClientDao(em);
+        ClientDao clientDao = new ClientDao();
 //        clientDao.deleteById(179);
 //
 //        Client client = new Client();
@@ -88,9 +88,9 @@ public class Main {
 //
 //        clientDao.save(client);
 
-        EmployeePositionDao epd = new EmployeePositionDao(em);
-        EmployeeDao ed = new EmployeeDao(em);
-        DepartmentDao dd = new DepartmentDao(em);
+        EmployeePositionDao epd = new EmployeePositionDao();
+        EmployeeDao ed = new EmployeeDao();
+        DepartmentDao dd = new DepartmentDao();
 
         EmployeePosition employeePosition = epd.get(2);
         Department department = dd.get(2);
@@ -98,7 +98,11 @@ public class Main {
 
         Employee employee = ed.get(182);
 
-        employee.setEmail("test123@gmail.com");
+//        for (Employee item : ed.getAll()) {
+//            System.out.println(item.getFirstName());
+//        }
+
+//        employee.setEmail("test432123@gmail.com");
 //        employee.setFirstName("safsadf");
 //        employee.setLastName("sadfsadf Citarovic");
 //        employee.setAddress("sfafsa 1");
@@ -106,9 +110,9 @@ public class Main {
 //        employee.setPosition(employeePosition);
 //        employee.setDepartment(department);
 
-        ed.update(employee);
+//        ed.update(employee);
 
-        em.close();
-        emf.close();
+//        em.close();
+//        emf.close();
     }
 }

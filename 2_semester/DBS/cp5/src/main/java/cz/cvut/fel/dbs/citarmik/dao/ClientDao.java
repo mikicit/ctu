@@ -6,8 +6,8 @@ import cz.cvut.fel.dbs.citarmik.entity.Client;
 import javax.persistence.EntityManager;
 
 public class ClientDao extends AbstractJpaDAO<Client> {
-    public ClientDao(EntityManager em) {
-        super(em);
+    public ClientDao() {
+        super();
         setCurrentClass(Client.class);
     }
 }

@@ -19,20 +19,20 @@
         <class>cz.cvut.fel.dbs.citarmik.entity.Supervisor</class>
         <properties>
             <property
-                name="javax.persistence.jdbc.url"
-                value=""
+                    name="javax.persistence.jdbc.url"
+                    value="jdbc:postgresql://slon.felk.cvut.cz:5432/citarmik"
             />
             <property
-                name="javax.persistence.jdbc.user"
-                value=""
+                    name="javax.persistence.jdbc.user"
+                    value="citarmik"
             />
             <property
-                name="javax.persistence.jdbc.driver"
-                value="org.postgresql.Driver"
+                    name="javax.persistence.jdbc.driver"
+                    value="org.postgresql.Driver"
             />
             <property
-                name="javax.persistence.jdbc.password"
-                value=""
+                    name="javax.persistence.jdbc.password"
+                    value="28053155"
             />
 <!--            <property-->
 <!--                name="javax.persistence.schema-generation.database.action"-->

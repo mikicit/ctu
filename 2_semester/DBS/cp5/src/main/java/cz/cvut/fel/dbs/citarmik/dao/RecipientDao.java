@@ -6,8 +6,8 @@ import cz.cvut.fel.dbs.citarmik.entity.Recipient;
 import javax.persistence.EntityManager;
 
 public class RecipientDao extends AbstractJpaDAO<Recipient> {
-    public RecipientDao(EntityManager em) {
-        super(em);
+    public RecipientDao() {
+        super();
         setCurrentClass(Recipient.class);
     }
 }

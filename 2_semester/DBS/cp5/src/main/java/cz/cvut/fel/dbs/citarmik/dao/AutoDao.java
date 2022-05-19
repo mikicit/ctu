@@ -6,8 +6,8 @@ import cz.cvut.fel.dbs.citarmik.entity.Auto;
 import javax.persistence.EntityManager;
 
 public class AutoDao extends AbstractJpaDAO<Auto> {
-    public AutoDao(EntityManager em) {
-        super(em);
+    public AutoDao() {
+        super();
         setCurrentClass(Auto.class);
     }
 }

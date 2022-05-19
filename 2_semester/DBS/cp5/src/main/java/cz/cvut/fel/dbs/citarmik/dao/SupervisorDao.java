@@ -6,8 +6,8 @@ import cz.cvut.fel.dbs.citarmik.entity.Supervisor;
 import javax.persistence.EntityManager;
 
 public class SupervisorDao extends AbstractJpaDAO<Supervisor> {
-    public SupervisorDao(EntityManager em) {
-        super(em);
+    public SupervisorDao() {
+        super();
         setCurrentClass(Supervisor.class);
     }
 }

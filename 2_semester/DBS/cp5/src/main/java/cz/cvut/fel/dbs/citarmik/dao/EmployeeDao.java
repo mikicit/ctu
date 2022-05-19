@@ -6,8 +6,8 @@ import cz.cvut.fel.dbs.citarmik.entity.Employee;
 import javax.persistence.EntityManager;
 
 public class EmployeeDao extends AbstractJpaDAO<Employee> {
-    public EmployeeDao(EntityManager em) {
-        super(em);
+    public EmployeeDao() {
+        super();
         setCurrentClass(Employee.class);
     }
 }

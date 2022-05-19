@@ -6,8 +6,8 @@ import cz.cvut.fel.dbs.citarmik.entity.Journey;
 import javax.persistence.EntityManager;
 
 public class JourneyDao extends AbstractJpaDAO<Journey> {
-    public JourneyDao(EntityManager em) {
-        super(em);
+    public JourneyDao() {
+        super();
         setCurrentClass(Journey.class);
     }
 }
