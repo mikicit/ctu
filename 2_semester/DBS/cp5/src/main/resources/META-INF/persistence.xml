@@ -20,11 +20,11 @@
         <properties>
             <property
                 name="javax.persistence.jdbc.url"
-                value="jdbc:postgresql://slon.felk.cvut.cz:5432/citarmik"
+                value=""
             />
             <property
                 name="javax.persistence.jdbc.user"
-                value="citarmik"
+                value=""
             />
             <property
                 name="javax.persistence.jdbc.driver"
@@ -32,7 +32,7 @@
             />
             <property
                 name="javax.persistence.jdbc.password"
-                value="28053155"
+                value=""
             />
 <!--            <property-->
 <!--                name="javax.persistence.schema-generation.database.action"-->
