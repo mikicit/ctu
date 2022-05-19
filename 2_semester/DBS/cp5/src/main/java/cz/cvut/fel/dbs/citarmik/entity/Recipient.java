@@ -13,8 +13,8 @@ public class Recipient {
             generator="recipient_recipient_id_seq")
     @Column(name = "recipient_id", updatable = false)
     private long id;
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "order_id", unique = true)
+    @OneToOne(cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "order_id")
     private Order order;
     @Column(name = "first_name", length = 32, nullable = false)
     private String firstName;

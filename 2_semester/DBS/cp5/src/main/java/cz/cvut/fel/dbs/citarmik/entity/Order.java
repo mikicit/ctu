@@ -28,7 +28,7 @@ public class Order {
     private Date creationDateTime;
     @Column(name = "price", nullable = false, precision = 6, scale = 2)
     private Float price;
-    @OneToOne(mappedBy = "order")
+    @OneToOne(mappedBy = "order", cascade = CascadeType.PERSIST)
     private Recipient recipient;
 
     public long getId() {
