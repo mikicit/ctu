@@ -1,0 +1,60 @@
+{
+  "id": 1,
+  "name": "Dark forest",
+  "portals": [
+    {
+      "id": 1,
+      "positionX": 27,
+      "positionY": 7
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "positionX": 36,
+      "positionY": 9
+    },
+    {
+      "id": 2,
+      "positionX": 35,
+      "positionY": 13
+    },
+    {
+      "id": 3,
+      "positionX": 11,
+      "positionY": 9
+    },
+    {
+      "id": 4,
+      "positionX": 10,
+      "positionY": 3
+    },
+    {
+      "id": 7,
+      "positionX": 13,
+      "positionY": 11
+    }
+  ],
+  "monsters": [
+    {
+      "id": 1,
+      "positionX": 36,
+      "positionY": 9
+    },
+    {
+      "id": 2,
+      "positionX": 35,
+      "positionY": 11
+    },
+    {
+      "id": 1,
+      "positionX": 10,
+      "positionY": 3
+    },
+    {
+      "id": 3,
+      "positionX": 7,
+      "positionY": 12
+    }
+  ]
+}
