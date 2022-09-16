@@ -1,3 +1,3 @@
-# CVUT
+# CTU in Prague
 
-Work while studying at CVUT. Homework, practice, semester work.
+Work while studying at CTU. Homework, practice, semester work.
