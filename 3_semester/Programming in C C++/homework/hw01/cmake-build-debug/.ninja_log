@@ -1,0 +1,21 @@
+# ninja log v5
+5	1361	6864671440809520	CMakeFiles/tests-stage-1.dir/telescope.cpp.obj	b5777e837c171890
+8	1283	6864695539939332	CMakeFiles/tests-stage-2.dir/tests-arr-02.cpp.obj	95ae6298f6a9006b
+7	1081	6863520805776078	CMakeFiles/tests-stage-2.dir/test-helpers.cpp.obj	fe019d23becea3cc
+3	986	6864695536981792	CMakeFiles/tests-stage-2.dir/telescope.cpp.obj	65805faf1f4985f8
+6	875	6865085673547061	CMakeFiles/tests-stage-3.dir/telescope.cpp.obj	2c93dad749e4520c
+7	827	6862491471426646	CMakeFiles/tests-stage-1.dir/test-helpers.cpp.obj	478b6c16fcdea256
+0	1229	6862491475446621	CMakeFiles/tests-stage-1.dir/tests-arr-01.cpp.obj	92aa34aef60bd5af
+11	13740	6862491600309735	CMakeFiles/tests-stage-1.dir/tests-main.cpp.obj	a9a5aa52db1426a9
+1362	32207	6864671749399513	tests-stage-1.exe	f35140dfaba039f9
+1283	30678	6864695833825666	tests-stage-2.exe	49dd8879f16e742
+0	15306	6863520947773400	CMakeFiles/tests-stage-2.dir/tests-main.cpp.obj	72eed88ab975248d
+11	1157	6864633956774846	CMakeFiles/tests-stage-3.dir/test-helpers.cpp.obj	523c56d7470ded7
+3	1241	6865085677196831	CMakeFiles/tests-stage-3.dir/tests-arr-03.cpp.obj	a1b924469d18ecaa
+15	15706	6864634102000042	CMakeFiles/tests-stage-3.dir/tests-main.cpp.obj	5d717f4e0910290e
+1241	42510	6865086089856029	tests-stage-3.exe	1da6b843a2e2d0b2
+12	1026	6865087079779355	CMakeFiles/tests-stage-4.dir/test-helpers.cpp.obj	abb8ee909897da4d
+5	1360	6865087083139204	CMakeFiles/tests-stage-4.dir/telescope.cpp.obj	55c175d64284bc7f
+1	1508	6865087084627827	CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.obj	e80b56c0ddd5c3b
+8	15657	6865087225873251	CMakeFiles/tests-stage-4.dir/tests-main.cpp.obj	9b55b8c88031d6d6
+15657	51732	6865087586857498	tests-stage-4.exe	aad2c238b9908d62

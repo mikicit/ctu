@@ -1,0 +1,6 @@
+# ninja log v5
+5	12817	6918060293101158	CMakeFiles/tests.dir/tests-main.cpp.obj	2c031b76322e4d9a
+3	576	6918092489538287	CMakeFiles/tests.dir/tests-tiny-08.cpp.obj	c02476c0b5770968
+577	30826	6918092791924803	tests.exe	5fc16bca0a77d87c
+3	783	6918103119212580	CMakeFiles/tests.dir/tests-tiny-08.cpp.obj	c02476c0b5770968
+783	32860	6918103439883155	tests.exe	5fc16bca0a77d87c

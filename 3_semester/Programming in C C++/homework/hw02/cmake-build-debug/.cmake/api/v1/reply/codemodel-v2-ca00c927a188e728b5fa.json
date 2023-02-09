@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Crusoe",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "tests-stage-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-stage-1-Debug-fa5c0edeb4a83e98256f.json",
+					"name" : "tests-stage-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tests-stage-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-stage-2-Debug-fe82020c95567a3e805e.json",
+					"name" : "tests-stage-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tests-stage-3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-stage-3-Debug-13eb59517fc0e0d24501.json",
+					"name" : "tests-stage-3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/MC/Study/3sem/CPP/hw/hw02/cmake-build-debug",
+		"source" : "C:/MC/Study/3sem/CPP/hw/hw02"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

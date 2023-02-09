@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ArrPicture",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "tests-stage-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-stage-1-Debug-492b1b268d375c6a74c4.json",
+					"name" : "tests-stage-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tests-stage-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-stage-2-Debug-f5ba85ce152236bdab54.json",
+					"name" : "tests-stage-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tests-stage-3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-stage-3-Debug-e013b363be50060cf74d.json",
+					"name" : "tests-stage-3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tests-stage-4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-stage-4-Debug-46019284b4e2deebb6e3.json",
+					"name" : "tests-stage-4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/MC/Study/3sem/PCC/hw/hw01/cmake-build-debug",
+		"source" : "C:/MC/Study/3sem/PCC/hw/hw01"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,8 @@
+C:/MC/Study/3sem/PCC/hw/hw03/cmake-build-debug/CMakeFiles/tests-stage-1.dir
+C:/MC/Study/3sem/PCC/hw/hw03/cmake-build-debug/CMakeFiles/tests-stage-2.dir
+C:/MC/Study/3sem/PCC/hw/hw03/cmake-build-debug/CMakeFiles/tests-stage-3.dir
+C:/MC/Study/3sem/PCC/hw/hw03/cmake-build-debug/CMakeFiles/tests-stage-4.dir
+C:/MC/Study/3sem/PCC/hw/hw03/cmake-build-debug/CMakeFiles/tests-stage-5.dir
+C:/MC/Study/3sem/PCC/hw/hw03/cmake-build-debug/CMakeFiles/test.dir
+C:/MC/Study/3sem/PCC/hw/hw03/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/MC/Study/3sem/PCC/hw/hw03/cmake-build-debug/CMakeFiles/rebuild_cache.dir

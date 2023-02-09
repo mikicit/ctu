@@ -1,0 +1,4 @@
+C:/MC/Study/3sem/PCC/hw/tiny08/cmake-build-debug/CMakeFiles/tests.dir
+C:/MC/Study/3sem/PCC/hw/tiny08/cmake-build-debug/CMakeFiles/test.dir
+C:/MC/Study/3sem/PCC/hw/tiny08/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/MC/Study/3sem/PCC/hw/tiny08/cmake-build-debug/CMakeFiles/rebuild_cache.dir
