@@ -13,12 +13,12 @@ The work is divided into semesters and subjects, and each subject contains a des
 
 - [Czech language 2](https://intranet.fel.cvut.cz/en/education/bk/predmety/12/55/p12550904.html)
 - [English Language B1-1](https://intranet.fel.cvut.cz/en/education/bk/predmety/46/87/p4687406.html)
-- Introduction to Programming
+- [Introduction to Programming](/1_semester/Introduction%20to%20Programming/)
 - [Introduction to Discrete Mathematics](https://intranet.fel.cvut.cz/en/education/bk/predmety/31/29/p3129206.html)
 - [Introduction to Project Management](https://intranet.fel.cvut.cz/en/education/bk/predmety/66/26/p6626306.html)
 - [Basics of Computer Systems](https://intranet.fel.cvut.cz/en/education/bk/predmety/31/29/p3129306.html)
 - [Foundations of Multimedia Production](https://intranet.fel.cvut.cz/en/education/bk/predmety/31/29/p3129006.html)
-- [Foundations of Web Applications](https://intranet.fel.cvut.cz/en/education/bk/predmety/31/29/p3129506.html)
+- [Foundations of Web Applications](/1_semester/Foundations%20of%20Web%20Applications/)
 - Basic health and occupational safety regulations
 
 ### Semester 2
