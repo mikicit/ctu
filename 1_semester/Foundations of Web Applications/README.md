@@ -1,4 +1,5 @@
-# Introduction to Programming
+# Foundations of Web Applications
 
-Subject code is **B0B36ZAL** <br>
-Reference to the course description - [link](https://intranet.fel.cvut.cz/en/education/bk/predmety/66/26/p6626406.html)
+Subject code is **B6B39ZWA** <br>
+Reference to the course description - [link](https://intranet.fel.cvut.cz/en/education/bk/predmety/31/29/p3129506.html) <br>
+Semester work - [link](https://github.com/mikicit/hrecept.cz)
