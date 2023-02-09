@@ -1,1 +1,0 @@
-# ZAL - Fundamentals of Algorithmization 
