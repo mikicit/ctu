@@ -23,11 +23,11 @@ The work is divided into semesters and subjects, and each subject contains a des
 
 ### Semester 2
 
-- [Database Systems](/2_semester/DBS)
-- Programming in Java
-- Linear Algebra
-- Analysis and Modeling of Software Requirements
-- Software Testing
+- [Database Systems](/2_semester/Database%20Systems)
+- [Programming in Java](/2_semester/Programming%20in%20Java)
+- [Linear Algebra](https://intranet.fel.cvut.cz/en/education/bk/predmety/31/29/p3129806.html)
+- [Analysis and Modeling of Software Requirements](/2_semester/Analysis%20and%20Modeling%20of%20Software%20Requirements)
+- [Software Testing](/2_semester/Software%20Testing)
 - Safety in Electrical Engineering for a bachelor´s degree
 
 ### Semester 3
@@ -37,5 +37,5 @@ The work is divided into semesters and subjects, and each subject contains a des
 - Enterprise Architectures
 - Computer Networks
 - Business Process Management
-- Mathematics Analysis
-- English Language B2-1
+- [Mathematics Analysis](https://intranet.fel.cvut.cz/en/education/bk/predmety/31/30/p3130506.html)
+- [English Language B2-1](https://intranet.fel.cvut.cz/en/education/bk/predmety/46/87/p4687606.html)
