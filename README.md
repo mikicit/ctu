@@ -31,10 +31,10 @@ The work is divided into semesters and subjects, and each subject contains a des
 
 ### Semester 3
 
-- Programming in C/C++
-- Object-oriented design and Modeling
-- Enterprise Architectures
-- Computer Networks
-- Business Process Management
+- [Programming in C/C++](/3_semester/Programming%20in%20C%20C%2B%2B)
+- [Object-oriented design and Modeling](/Object-oriented%20design%20and%20Modeling)
+- [Enterprise Architectures](/3_semester/Enterprise%20Architectures)
+- [Computer Networks](https://intranet.fel.cvut.cz/en/education/bk/predmety/31/30/p3130806.html)
+- [Business Process Management](https://intranet.fel.cvut.cz/en/education/bk/predmety/31/32/p3132406.html)
 - [Mathematics Analysis](https://intranet.fel.cvut.cz/en/education/bk/predmety/31/30/p3130506.html)
 - [English Language B2-1](https://intranet.fel.cvut.cz/en/education/bk/predmety/46/87/p4687606.html)
