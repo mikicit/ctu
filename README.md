@@ -1,3 +1,3 @@
-# CTU in Prague
+# Czech technical university in Prague
 
-Work while studying at CTU. Homework, practice, semester work.
+Work while studying at CTU. Homework, practice and etc.
