@@ -1,4 +1,4 @@
-# Czech technical university in Prague
+# Czech Technical University in Prague
 
 This repository contains a list of completed courses, homework, papers, and so on. Some semester papers are located in separate repositories. The links are listed in the readme at the root of the course.
 
