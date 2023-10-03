@@ -8,14 +8,24 @@ Up-to-date results for completed courses - [doc](/Study_Results_Citarovič_Mikit
 
 The work is divided into semesters and subjects, and each subject contains a description.
 
+### Semester 5
+
+- [Intellectual property protection](https://moodle.fel.cvut.cz/local/kos/pages/course/info.php?code=A0B32ODV&semester=)
+- [English Language B2-2](https://moodle.fel.cvut.cz/local/kos/pages/course/info.php?code=B0B04B22&semester=)
+- [Cryptography and Network Security](https://moodle.fel.cvut.cz/local/kos/pages/course/info.php?code=B0M32KSB&semester=)
+- Distributed Computing
+- Semestral Project
+- Unix Operating Systems
+- Management of Software Projects
+
 ### Semester 4
 
-- Client applications in JavaScript
-- Statistics and Probability
-- Information Systems
-- Data Structures and Algorithms
-- Design of Software Systems
-- Principles of mobile applications
+- [Client applications in JavaScript](/4_semester/Client%20applications%20in%20JavaScript)
+- [Statistics and Probability](https://math.fel.cvut.cz/en/people/heliskat/01pst.html)
+- [Information Systems](https://moodle.fel.cvut.cz/local/kos/pages/course/info.php?code=B6B16INS&semester=)
+- [Data Structures and Algorithms](/4_semester/Data%20Structures%20and%20Algorithms)
+- [Design of Software Systems](/4_semester/Design%20of%20Software%20Systems)
+- [Principles of mobile applications](/4_semester/Principles%20of%20mobile%20applications)
 
 ### Semester 3
 
