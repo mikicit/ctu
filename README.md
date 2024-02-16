@@ -13,10 +13,10 @@ The work is divided into semesters and subjects, and each subject contains a des
 - [Intellectual property protection](https://moodle.fel.cvut.cz/local/kos/pages/course/info.php?code=A0B32ODV&semester=)
 - [English Language B2-2](https://moodle.fel.cvut.cz/local/kos/pages/course/info.php?code=B0B04B22&semester=)
 - [Cryptography and Network Security](https://moodle.fel.cvut.cz/local/kos/pages/course/info.php?code=B0M32KSB&semester=)
-- Distributed Computing
+- [Distributed Computing](/5_semester/Distributed%20Computing)
 - Semestral Project
 - Unix Operating Systems
-- Management of Software Projects
+- [Management of Software Projects](/5_semester/Management20of20Software20Projects)
 
 ### Semester 4
 
