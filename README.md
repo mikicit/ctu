@@ -16,7 +16,7 @@ The work is divided into semesters and subjects, and each subject contains a des
 - [Distributed Computing](/5_semester/Distributed%20Computing)
 - Semestral Project
 - Unix Operating Systems
-- [Management of Software Projects](/5_semester/Management20of20Software20Projects)
+- [Management of Software Projects](/5_semester/Management%20of%20Software%20Projects)
 
 ### Semester 4
 
